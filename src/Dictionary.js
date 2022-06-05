@@ -10,6 +10,7 @@ export default function Dictionary() {
 	}
 
 	function searchWord(event) {
+		//documentation: https://dictionaryapi.dev/
 		let apiURL = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
 
 		event.preventDefault();
