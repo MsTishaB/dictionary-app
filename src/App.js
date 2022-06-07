@@ -14,7 +14,17 @@ function App() {
 					/>
 					<Dictionary />
 				</header>
-				<footer className="App-footer">Coded by Tisha Brown</footer>
+				<footer className="App-footer">
+					Coded by Tisha Brown and open-sourced on{" "}
+					<a
+						href="https://github.com/MsTishaB/dictionary-app"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{" "}
+						GitHub
+					</a>
+				</footer>
 			</div>{" "}
 		</div>
 	);
