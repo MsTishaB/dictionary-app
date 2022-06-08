@@ -11,8 +11,6 @@ export default function Results(props) {
 							<Meaning meaning={meaning} />
 						</div>
 					);
-
-					//meaning.definitions[0].definition;
 				})}
 			</div>
 		);
