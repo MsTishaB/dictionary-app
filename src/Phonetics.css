@@ -1,0 +1,8 @@
+.audioPlayer {
+	display: block;
+}
+
+.audioPlayer .controls {
+	width: 50px;
+	border-radius: 10px;
+}
