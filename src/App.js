@@ -12,7 +12,7 @@ function App() {
 						alt="SheCodes logo"
 						className="App-logo img-fluid"
 					/>
-					<Dictionary />
+					<Dictionary defaultKeyword="forest" />
 				</header>
 				<footer className="App-footer">
 					Coded by Tisha Brown and open-sourced on{" "}
