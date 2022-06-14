@@ -2,3 +2,18 @@
 	display: inline;
 	margin: 0 auto;
 }
+
+.PhoneticsAudio button {
+	background-color: rgb(111, 217, 229);
+	border-radius: 50%;
+	border: 1px solid gray;
+	color: white;
+	padding: 0px 5px;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.PhoneticsAudio button:hover {
+	background-color: white;
+	color: rgb(111, 217, 229);
+}

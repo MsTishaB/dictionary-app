@@ -1,16 +1,28 @@
 import React from "react";
+import "./Phonetics.css";
 
 import PhoneticsAudio from "./PhoneticsAudio";
 
 export default function Phonetics(props) {
 	if (props.phonetics.audio) {
 		return (
-			<div className="Phonetics">
-				<PhoneticsAudio phonetics={props.phonetics.audio} />
-				<span> {props.phonetics.text}</span>
+			<div className="Phonetics row">
+				<div className="col-1">
+					<PhoneticsAudio phonetics={props.phonetics.audio} />
+				</div>
+				<div className="col-11 text">
+					<span> {props.phonetics.text}</span>
+				</div>
 			</div>
 		);
 	} else {
-		return <div className="Phonetics">{props.phonetics.text}</div>;
+		return (
+			<div className="Phonetics row">
+				<div className="col-1"></div>
+				<div className="col-11 text">
+					<span> {props.phonetics.text}</span>
+				</div>
+			</div>
+		);
 	}
 }

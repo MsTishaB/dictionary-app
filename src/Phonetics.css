@@ -1,8 +1,5 @@
-.audioPlayer {
-	display: block;
-}
-
-.audioPlayer .controls {
-	width: 50px;
-	border-radius: 10px;
+.Phonetics .text {
+	margin-top: 13px;
+	opacity: 0.6;
+	font-weight: 500;
 }
