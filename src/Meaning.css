@@ -1,0 +1,17 @@
+.Meaning h3 {
+	font-size: 24px;
+	color: rgb(151, 112, 241);
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+.Meaning .example {
+	font-size: 11;
+
+	font-style: italic;
+	color: rgb(252, 111, 153);
+}
+
+.Meaning .wordInfo {
+	margin-bottom: 20px;
+}
